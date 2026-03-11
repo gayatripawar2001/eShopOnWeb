@@ -6,10 +6,10 @@ name: eShopOnWeb Build and Test
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-gp
-  LOCATION: northcentralus
+  LOCATION: North Central US
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: bac4bb35-db12-4e5b-aca1-c3dcf9260daa
-  WEBAPP-NAME: eshoponweb-webapp-gp
+  WEBAPP-NAME: eshoponweb-webapp-gayatrip
 
 jobs:
   #Build, test and publish .net web project in repository
